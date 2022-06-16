@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forEach</title>
+</head>
+<body>
+    <div id="app"></div>
+    <div id="app-reto"></div>
+    <script >
+        const products = [
+            { title: 'Burger', price: 121 },
+            { title: 'Pizza', price: 20 },
+        ];
+        const app = document.getElementById('app');
+        products.forEach(product => {
+            app.innerHTML += `<li>${product.title} - ${product.price}</li>`;
+        })
+
+        //reto de la clase
+        const tareas = [
+            {task: 'tomar clase', done: true},
+            {task: 'ducharse', done: false},
+            {task: 'limpiar habitacion', done: true},
+            {task: 'hacer la cena', done: false},
+        ];
+
+        const appReto = document.getElementById('app-reto');
+
+        tareas.forEach(tarea => {
+            appReto.innerHTML += `
+            <li>Tarea: ${tarea.task} - 
+            Hecho: <input type="checkbox" ${tarea.done ? 'checked' : ''}/> 
+            </li>`
+        })
+
+    </script>
+</body>
+</html>

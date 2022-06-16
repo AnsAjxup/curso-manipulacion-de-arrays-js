@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/platzi/curso-manipulacion-de-arrays.git"
+    "url": "git+https://github.com/AnsAjxup/curso-manipulacion-de-arrays-js.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/platzi/curso-manipulacion-de-arrays/issues"
+    "url": "https://github.com/AnsAjxup/curso-manipulacion-de-arrays-js/issues"
   },
-  "homepage": "https://github.com/platzi/curso-manipulacion-de-arrays#readme",
+  "homepage": "https://github.com/AnsAjxup/curso-manipulacion-de-arrays-js#readme",
   "dependencies": {
     "http-server": "^0.12.3"
   }
